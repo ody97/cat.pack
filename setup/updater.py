@@ -41,10 +41,10 @@ async def update_requirements(main , test):
     a, r = await lines_differnce(main, test)
     try:
         for i in a:
-            await runcmd(f"pip install {i}")
-            print(f"Succesfully installed {i}")
+            await runcmd(f"تثبيت نقطة {i}")
+            print(f"▾∮ تم ربطها وتثبيتها بنجاح ↫ {i} ✓")
     except Exception as e:
-        print(f"Error while installing requirments {str(e)}")
+        print(f"خطأ أثناء تثبيت المتطلبات {str(e)}")
 
 
 loop = asyncio.get_event_loop()
