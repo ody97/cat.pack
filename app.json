@@ -7,7 +7,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/ody97/Cat_Arabic/",
+  "repository": "https://github.com/ody97/CatArabic/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -16,11 +16,11 @@
       "value": ""
     },
     "APP_ID": {
-      "description": "Get this value from my.telegram.org! Please do not steal",
+      "description": "اكتب الايدي هنا او احصل عليه من my.telegram.org ↶",
       "value": ""
     },
     "API_HASH": {
-      "description": "Get this value from my.telegram.org! Please do not steal",
+      "description": "اكتب الايبي هاش هنا او احصل عليه من my.telegram.org ↶",
       "value": ""
     },
     "STRING_SESSION": {
